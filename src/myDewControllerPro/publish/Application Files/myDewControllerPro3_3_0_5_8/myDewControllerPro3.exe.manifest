@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="myDewControllerPro3.exe" version="3.0.5.8" publicKeyToken="11e8884c78976bdb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="myDewController.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="myDewControllerPro3" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="myDewControllerPro3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.AXVLC.dll" size="24064">
+      <assemblyIdentity name="AxInterop.AXVLC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fXoE+JJrH3LTyygYndho84z/ln7IyuEGkfp9SAIvUNo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4MMxX39IJ4/aQWV7AvHPhe+W3p5HI4N6QKmSPH4sTe0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.AXVLC.dll" size="35840">
+      <assemblyIdentity name="Interop.AXVLC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OBsXc6BXJ6x2Aw/hiLBbJVrMNEgASwcQWRcQlIz/oO4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8CR6jbU5ynAilv343gOh80NAtDaQgy/fbPeIMTyHeqM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="myDewControllerPro3.exe" size="276392">
+      <assemblyIdentity name="myDewControllerPro3" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AvFF2N47qmIxyJW9ejLA8208lVUVEpcAowoF5jv+CJE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="myDewController.ico" size="12862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kMXrbIwwiN9ErS9EHWO32ohVhMMwmlukJdRHD4F9cIc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="myDewControllerPro3.exe.config" size="3066">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PzSJx+xbfz/keka9pb7Vd26Hgqn2If4lLAhB7LXI/c0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Thermometer.bmp" size="5174">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XtyiZXAnZza6yuBqAx2QjyALzGk0LmvWBbLHFs9TFJM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ROBERT-ASUS\robert" issuerKeyHash="78d19831e52e177b95c5e17151ecb67da04c3c65" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>xnOHunDLgA7WYw4a2d3MYcfH430=</DigestValue></Reference></SignedInfo><SignatureValue>G29adtLR/iRR+aHOl6Hkkaf93ZTqA+y3nNl8hckXDy00oAmiDeVWBJwTmRMElLcMDucUC1FN6pX5h/2uZ+MYGDiW8LlQvfZe74k9UgI3nCEmTpiQAb9qzSHNN3aJeKcoTrNOo7xqBMAhhzKbKdN5P4HpLU2EYfp3IqcwuJI9frU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tyEN10rroExHl5vCUb6ppvYrOuYMKzCK55Rgp0uY7QiT+lK3+WEqXME34IfXEMDVQikxeRdn0b88ICduUNnfBtbnE6fpe6Wbc7/eYqUnCIcP565SVTDgitznt8WPjMwAx/HpK+cPBK7EBXOHSBrr6+kPUqSEXUd8JJ+ZYwyaDks=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7de3c7c761ccddd91a0e63d60e80cb70ba8773c6" Description="" Url=""><as:assemblyIdentity name="myDewControllerPro3.exe" version="3.0.5.8" publicKeyToken="11e8884c78976bdb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ROBERT-ASUS\robert</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tRosZDlKekWnQHKBsTfgDIHgEyU=</DigestValue></Reference></SignedInfo><SignatureValue>B7MtZgermILmCxfxVBmlkWnNFRtQoRTruIsqo9D4BfyCTqZG7YI2R1SzsrmkYDHCL4oNqbFc+LNqeshNQBjxlHTjPTnmcLtUfBiLduNy/y5D2hDi9kRtP4Z6K0U74Z05BfVOhjV3s//Gptp7IDnvEMT2hZ/CEQWLl7XRy39YOeQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tyEN10rroExHl5vCUb6ppvYrOuYMKzCK55Rgp0uY7QiT+lK3+WEqXME34IfXEMDVQikxeRdn0b88ICduUNnfBtbnE6fpe6Wbc7/eYqUnCIcP565SVTDgitznt8WPjMwAx/HpK+cPBK7EBXOHSBrr6+kPUqSEXUd8JJ+ZYwyaDks=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQFOvSlqur7ppJcCpVZ0eTdzANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAUgBPAEIARQBSAFQALQBBAFMAVQBTAFwAcgBvAGIAZQByAHQwHhcNMTkwMzA1MDMwOTM3WhcNMjQwMzA1MDMwOTM3WjAvMS0wKwYDVQQDHiQAUgBPAEIARQBSAFQALQBBAFMAVQBTAFwAcgBvAGIAZQByAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALchDddK66BMR5ebwlG+qab2KzrmDCswiueUYKdLmO0Ik/pSt/lhKlzBN+CH1xDA1UIpMXkXZ9G/PCAnblDZ3wbW5xOn6Xulm3O/3mKlJwiHD+euUlUw4Irc57fFj4zMAMfx6SvnDwSuxAVzh0ga6+vpD1KkhF1HfCSfmWMMmg5LAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAWDemP41zs0fI04+7CrPU36MbN8kJm/PTUwKUWL8P3THYGEp1T4UI/5uJDdEFUV/2aC7X7mE4L+MQj1R7+CWYdj19amk0sAzvyg0P3Q74I1mwcIKPnO1xwxrZevC2P66J3J8Wi0eYNm67gKtjHg0+BqoM9/qWYo4Rcb2NqYhUyNQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="myDewControllerPro3.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.1"/>
+    </startup>
+    <userSettings>
+        <myDewControllerPro3.Properties.Settings>
+            <setting name="COMPORT" serializeAs="String">
+                <value>COM1</value>
+            </setting>
+            <setting name="loggingerrors" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ch1tempoffset" serializeAs="String">
+                <value>0.0</value>
+            </setting>
+            <setting name="ch2tempoffset" serializeAs="String">
+                <value>0.0</value>
+            </setting>
+            <setting name="errorlogpath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SubFormRunning" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ErrorLogName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="WriteEEPROMonExit" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ch3tempoffset" serializeAs="String">
+                <value>0.0</value>
+            </setting>
+            <setting name="ch1labeltext" serializeAs="String">
+                <value>Ch1 </value>
+            </setting>
+            <setting name="ch2labeltext" serializeAs="String">
+                <value>Ch2 </value>
+            </setting>
+            <setting name="ch3labeltext" serializeAs="String">
+                <value>Ch3 </value>
+            </setting>
+            <setting name="FormLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="ErrorFormLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="fantempsetting" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="GraphFormLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="errorlogdir" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ComPortBaudRate" serializeAs="String">
+                <value>57600</value>
+            </setting>
+        </myDewControllerPro3.Properties.Settings>
+    </userSettings>
+</configuration>

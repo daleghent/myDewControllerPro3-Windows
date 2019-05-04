@@ -1,0 +1,6 @@
+D:\myFiles\myArduino\Arduino Project myDewController\Version 300\DewControllerPro WinApp V3\myDewControllerPro\bin\Release\myDewControllerPro3.exe.config
+D:\myFiles\myArduino\Arduino Project myDewController\Version 300\DewControllerPro WinApp V3\myDewControllerPro\obj\Release\Interop.AXVLC.dll
+D:\myFiles\myArduino\Arduino Project myDewController\Version 300\DewControllerPro WinApp V3\myDewControllerPro\obj\Release\Interop.WMPLib.dll
+D:\myFiles\myArduino\Arduino Project myDewController\Version 300\DewControllerPro WinApp V3\myDewControllerPro\obj\Release\AxInterop.AXVLC.dll
+D:\myFiles\myArduino\Arduino Project myDewController\Version 300\DewControllerPro WinApp V3\myDewControllerPro\obj\Release\AxInterop.WMPLib.dll
+D:\myFiles\myArduino\Arduino Project myDewController\Version 300\DewControllerPro WinApp V3\myDewControllerPro\obj\Release\DewControllerPro3.csproj.ResolveComReference.cache
